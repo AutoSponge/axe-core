@@ -51,7 +51,8 @@
     "test": "grunt test",
     "test-fast": "grunt test-fast",
     "version": "node build/sri-update",
-    "prepublishOnly": "grunt build && node build/sri-update --validate"
+    "prepublishOnly": "grunt build && node build/sri-update --validate",
+    "release": "standard-version"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.6.5",
@@ -81,7 +82,8 @@
     "promise": "~7.1.1",
     "revalidator": "~0.3.1",
     "selenium-webdriver": "~3.4.0",
-    "sri-toolbox": "^0.2.0"
+    "sri-toolbox": "^0.2.0",
+    "standard-version": "^4.2.0"
   },
   "dependencies": {}
 }
